@@ -13,10 +13,10 @@ We have implemented the following tasks in our dashboard:
 2. **Task 2:** To analyze trends in crop production over the years
 3. **Task 3:** To correlate rainfall pattern with crop production trends
 ### Execution commands
-For installing the dependencies, use \
+For installing the dependencies, use: \
 `pip install requirements.txt`\
-For executing the script and hosting the dashboard locally, use \
-`sreamlit run final.py`\
+For executing the script and hosting the dashboard locally, use: \
+`sreamlit run final.py`
 
 ## Assignments for Big Data Visual Analytics
 - **Assignment 1:** Familiarised with VTK package and Paraview software for data visualisation
