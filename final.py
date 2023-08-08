@@ -118,7 +118,7 @@ elif choose=='Task2':
     st.markdown(""" <style> .font {
         font-size:45px ; font-family: 'Comic Sans'; color: #cca300} 
         </style> """, unsafe_allow_html=True) 
-    df=pd.read_csv('APY.csv') 
+    df=pd.read_pickle('APY.pkl') 
     st.markdown('<p class="font">National Annual Crop Production</p>', unsafe_allow_html=True)  
     # st.write('---')
     # st.markdown('<p class="font">Set Parameters...</p>', unsafe_allow_html=True)
@@ -230,12 +230,12 @@ elif choose == 'Task3':
         geodata = json.load(response)
     dist_names = [feature['properties']['REMARKS'] for feature in geodata['features']]
     geo_df = gpd.GeoDataFrame.from_features(geodata["features"])
-    df_rainfall = pd.read_csv('Rainfall_Final.csv')
+    df_rainfall = pd.read_pickle('Rainfall_Final.pkl')
     df_rainfall = df_rainfall[df_rainfall['SUBDIVISION'].isin(dist_names)]
     loca = df_rainfall['Districts']
     cola = df_rainfall['Annual Rainfall']
     ani = df_rainfall['Year']
-    df_g = pd.read_csv('merged.csv')
+    df_g = pd.read_pickle('merged.pkl')
     cr_list = df_g.Crop.unique()
     st.markdown('<p class="font">Annual Rainfall Data Map</p>', unsafe_allow_html=True)  
     st.write("----")
