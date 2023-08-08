@@ -69,7 +69,7 @@ elif choose=='Task1':
         </style> """, unsafe_allow_html=True)
     with open('districtsm.geojson') as response:
         geodata = json.load(response)
-    df_g = pd.read_csv('merged.csv')
+    df_g = pd.read_pickle('merged.pkl')
     cr_list = df_g.Crop.unique()
     st.markdown('<p class="font">Crop Annual Production Map</p>', unsafe_allow_html=True)  
     with st.form(key='crops_form'):
