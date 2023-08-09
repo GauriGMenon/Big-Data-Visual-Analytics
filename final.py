@@ -32,7 +32,11 @@ if choose == "About":
         st.markdown(""" <style> .font {
         font-size:55px ; font-family: 'Comic Sans'; color: #cca300} 
         </style> """, unsafe_allow_html=True)
-        st.markdown('<p class="font">About</p>', unsafe_allow_html=True)    
+        st.markdown(""" <p class="font">About  <a href="https://github.com/GauriGMenon/Big-Data-Visual-Analytics">
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png", width="40", height="40"
+             alt="Click to visit Github repo">
+    </a> </p>""", unsafe_allow_html=True)
+        
     with col2:               # To display brand log
         st.image(logo, width=130 )
     st.write("## Data")
