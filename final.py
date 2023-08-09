@@ -60,10 +60,7 @@ if choose == "About":
     video_bytes = video_file.read()
     st.video(video_bytes)
     st.write("## Team Members (Group 8)")
-    st.write("- Arya Pinaki :smirk:")    
-    st.write("- Bhavya Garg :unamused:")
-    st.write("- Gauri G Menon :penguin:")
-    st.write("- Kaushik Raj Nadar :confused:")
+    st.write("- Gauri G Menon :penguin:"
     st.write("- S Pradeep :sunglasses:")
 
 
