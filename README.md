@@ -28,7 +28,9 @@ We have implemented the following tasks in our dashboard:
 3. Govt. policies and missions like NFSM, RKVY, PMFBY, subsidies, and farmer knowledge caused the change.
 
 <!-- ![preview](https://raw.githubusercontent.com/GauriGMenon/Big-Data-Visual-Analytics/main/assets/wheat_indo.png) -->
+<p align = "center">
 <img src="https://raw.githubusercontent.com/GauriGMenon/Big-Data-Visual-Analytics/main/assets/wheat_indo.png" width="400"/>
+</p>
 
 <!-- 4. Bajra was produced the most in Maharashtra during the early years. In recent years, production has dropped significantly. -->
 <!-- ![preview](https://raw.githubusercontent.com/GauriGMenon/Big-Data-Visual-Analytics/main/assets/bajra_old.png) ![preview](https://raw.githubusercontent.com/GauriGMenon/Big-Data-Visual-Analytics/main/assets/bajra_new.png) -->
@@ -48,11 +50,15 @@ We have implemented the following tasks in our dashboard:
 
 #### Task 3 Analysis(Rainfall correlation)
 - Bajra, and Gram are dry land crops and are hence, most grown in Rajasthan and Madhya Pradesh(low rainfall).
+<p align = "center">
 <img src="https://raw.githubusercontent.com/GauriGMenon/Big-Data-Visual-Analytics/main/assets/rainfall.png" width="400"/>
+</p>
 
 - Rice cultivation is also concentrated to high rainfall areas(like the East coast) owing to its water requirements
 - The extensive rice cultivation in the Punjab-Haryana region in the absence of sufficient rainfall explains the rainfall issues faced there
+<p align = "center">
 <img src="https://raw.githubusercontent.com/GauriGMenon/Big-Data-Visual-Analytics/main/assets/rice.png" width="400"/>
+</p>
 
 ## Assignments for Big Data Visual Analytics
 - **Assignment 1:** Familiarised with VTK package and Paraview software for data visualisation
